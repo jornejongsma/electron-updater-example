@@ -1,12 +1,12 @@
 {
   "name": "electron-updater-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "example updater",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder build --mac --win --publish never",
-    "deploy": "electron-builder build --mac --win --publish always"
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
   },
   "repository": {
     "type": "git",
